@@ -1,5 +1,5 @@
 /* CSS for Team Profile Generator */
-.team-heading {
+.team-header {
     background-color: #d73b3b;
     color: #fff;
     padding: 50px;
@@ -7,7 +7,6 @@
 
 .employee-card {
     margin: 10px;
-    border: 1px solid #000000;
     width: 300px;
     height: 350px;
     color: #ffffff;

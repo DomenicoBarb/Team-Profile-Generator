@@ -33,5 +33,8 @@ THEN I exit the application, and the HTML is generated
 ## Screenshot:
 ![Screenshot](assets/img/screenshot.png)
 
+## Demo:
+https://user-images.githubusercontent.com/119437696/223020468-03ded9f5-b1bc-45d3-8f78-6696d80e4248.mp4
+
 ## Description:
 This is a Node.js command-line application that takes in information about employees on a software engineering team and generates an HTML webpage that displays summaries for each person.

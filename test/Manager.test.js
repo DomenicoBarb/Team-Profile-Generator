@@ -19,3 +19,7 @@ test("Will it set email via constructor", () => {
 test("Get office number with getOfficeNumber()", () => {
     expect(man.getOfficeNumber()).toEqual(226);
 });
+// Test if getRole() method returns "Manager"
+test("Will getRole return \"Manager\"", () => {
+    expect(man.getRole()).toEqual("Manager");
+});

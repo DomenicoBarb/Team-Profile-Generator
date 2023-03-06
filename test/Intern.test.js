@@ -1,5 +1,6 @@
+// Import the Intern class from the Employee module
 const Intern = require("../lib/Intern");
-
+// Create a new Intern instance with the given arguments
 const inte = new Intern(2, 'Nico', 'NicoBarb@gmail.com', 'UofT');
 
 // Test whether the getId() method returns the correct id property

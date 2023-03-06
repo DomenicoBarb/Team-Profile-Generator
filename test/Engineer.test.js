@@ -7,13 +7,17 @@ const eng = new Engineer(1, 'Nico', 'NicoBarb@gmail.com', 'DomenicoBarb');
 test("Will it get id via getId()", () => {
     expect(eng.getId()).toEqual(1);
 });
-// Test if GitHub account was successfully set via constructor
-test("Will it set GitHub account via constructor", () => {
-    expect(eng.github).toBe('DomenicoBarb');
+// Test whether the Employee object's name property is set correctly
+test("Will it set a name via constructor", () => {
+    expect(eng.name).toEqual('Nico');
 });
 // Test if email was successfully set via constructor
 test("Will it set email via constructor", () => {
     expect(eng.email).toEqual('NicoBarb@gmail.com');
+});
+// Test if GitHub account was successfully set via constructor
+test("Will it set GitHub account via constructor", () => {
+    expect(eng.github).toBe('DomenicoBarb');
 });
 // Test if getRole() method returns "Engineer"
 test("Will getRole return \"Engineer\"", () => {

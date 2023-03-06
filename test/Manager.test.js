@@ -5,7 +5,7 @@ const man = new Manager(4, 'Nico', 'NicoBarb@gmail.com', 226);
 
 // Test whether the getId() method returns the correct id property
 test("Will it get id via getId()", () => {
-    expect(man.getId()).toEqual(2);
+    expect(man.getId()).toEqual(4);
 });
 // Test whether the Employee object's name property is set correctly
 test("Will it set a name via constructor", () => {

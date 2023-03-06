@@ -1,5 +1,27 @@
 # Team-Profile-Generator
-## User Story:
+
+## Table of Contents:
+
+* [Description](#description)
+* [Installation](#installation)
+* [Usage](#usage)
+* [User-Story](#user-story)
+* [Acceptance-Criteria](#acceptance-criteria)
+* [Screenshot](#screenshot)
+* [Demo](#Demo)
+* [Email](#Email)
+* [Owner](#Owner)
+
+## Description:
+This is a Node.js command-line application that takes in information about employees on a software engineering team and generates an HTML webpage that displays summaries for each person.
+
+## Installation:
+Type "npm i" into your terminal to download dependencies.
+
+## Usage:
+Type "node index" into your terminal to run the application
+
+## User-Story:
 
 ```md
 AS A manager
@@ -8,7 +30,7 @@ SO THAT I have quick access to their emails and GitHub profiles
 ```
 
 
-## Acceptance Criteria:
+## Acceptance-Criteria:
 
 ```md
 GIVEN a command-line application that accepts user input
@@ -36,5 +58,8 @@ THEN I exit the application, and the HTML is generated
 ## Demo:
 https://user-images.githubusercontent.com/119437696/223020468-03ded9f5-b1bc-45d3-8f78-6696d80e4248.mp4
 
-## Description:
-This is a Node.js command-line application that takes in information about employees on a software engineering team and generates an HTML webpage that displays summaries for each person.
+## Email:
+DomenicoABarberi@gmail.com
+
+## Owner:
+Domenico Barberi
